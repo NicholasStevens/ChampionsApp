@@ -49,8 +49,8 @@ input {
   font-size: 20px;
   text-align: center;
   margin: 10px 0;
-  display: flex;
-  flex-wrap: wrap;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 h3 {
