@@ -46,7 +46,7 @@ onValue(endorsementListInDB, function (snapshot) {
   }
 });
 
-function clearEndorsemenrListEl() {
+function clearEndorsementListEl() {
   endorsementListEl.innerHTML = "";
 }
 
