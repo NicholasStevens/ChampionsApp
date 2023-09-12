@@ -24,7 +24,7 @@ publishButtonEl.addEventListener("click", function () {
   let inputValue = inputFieldEl.value;
 
   push(endorsementListInDB, inputValue);
-  console.log("button pressed");
+
   clearInputFieldEl();
 });
 
