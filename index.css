@@ -73,12 +73,13 @@ ul {
 }
 
 ul li {
-  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
   background-color: #ffffff;
   color: #1b1924;
   padding: 15px;
   border-radius: 8px;
   flex-grow: 1;
-  text-align: center;
+  text-align: left;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
 }
