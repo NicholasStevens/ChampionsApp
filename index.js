@@ -39,7 +39,7 @@ onValue(endorsementListInDB, function (snapshot) {
       let currentEndorsementID = currentEndorsement[0];
       let currentEndorsementValue = currentEndorsement[1];
 
-      appendItemToShoppingListEl(currentEndorsement);
+      appendItemToEndorsementListEl(currentEndorsement);
     }
   } else {
     endorsementListEl.innerHTML = "No items here... yet";
@@ -51,7 +51,7 @@ function clearEndorsemenrListEl() {
 }
 
 function clearInputFieldEl() {
-  inputfieldEl.value = "";
+  inputFieldEl.value = "";
 }
 
 function appendItemToEndorsementListEl(comment) {
