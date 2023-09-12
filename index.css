@@ -40,6 +40,7 @@ button {
 
 input {
   background-color: #444059;
+  color: #ffffff;
   font-family: "inter", sans-serif;
   font-weight: normal;
   height: 118px;
@@ -49,8 +50,6 @@ input {
   font-size: 20px;
   text-align: center;
   margin: 10px 0;
-  word-wrap: break-word;
-  word-break: break-all;
 }
 
 h3 {
