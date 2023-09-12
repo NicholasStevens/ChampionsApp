@@ -21,9 +21,9 @@ const publishButtonEl = document.getElementById("publish-btn");
 const endorsementListEl = document.getElementById("endorsements-list");
 
 publishButtonEl.addEventListener("click", function () {
-  let inputValue = inputFieldEl.value;
+  //let inputValue = inputFieldEl.value;
 
-  push(endorsementListInDB, inputValue);
+  //push(endorsementListInDB, inputValue);
   console.log("clicked");
   //clearInputFieldEl();
 });
