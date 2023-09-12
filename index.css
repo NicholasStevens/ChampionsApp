@@ -6,6 +6,7 @@ body {
   color: #ffffff;
   font-family: "josefin sans", sans-serif;
   font-weight: bold;
+  user-select: none;
 }
 
 .container {
