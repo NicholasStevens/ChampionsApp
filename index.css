@@ -83,3 +83,7 @@ ul li {
   flex-grow: 1;
   text-align: left;
 }
+
+ul li:hover {
+  cursor: pointer;
+}
