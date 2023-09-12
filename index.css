@@ -45,15 +45,12 @@ input {
   font-family: "inter", sans-serif;
   font-weight: normal;
   height: 118px;
-  width: 317px;
   border: 0;
   padding: 15px;
   border-radius: 8px;
   font-size: 20px;
   text-align: center;
   margin: 10px 0;
-  word-wrap: break-word;
-  word-break: break-all;
 }
 
 h3 {
