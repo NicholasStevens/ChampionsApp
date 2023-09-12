@@ -34,7 +34,7 @@ onValue(endorsementListInDB, function (snapshot) {
 
     clearEndorsementListEl();
 
-    for (let i = 0; i < itemsArray.length; i++) {
+    for (let i = 0; i < endorsementArray.length; i++) {
       let currentEndorsement = endorsementArray[i];
       let currentEndorsementID = currentEndorsement[0];
       let currentEndorsementValue = currentEndorsement[1];
