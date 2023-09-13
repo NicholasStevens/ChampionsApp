@@ -42,7 +42,7 @@ onValue(endorsementListInDB, function (snapshot) {
       appendItemToEndorsementListEl(currentEndorsement);
     }
   } else {
-    endorsementListEl.innerHTML = "No items here... yet";
+    endorsementListEl.innerHTML = "Add an endorsement for your friend...";
   }
 });
 
