@@ -23,9 +23,7 @@ const toEl = document.getElementById("to");
 const fromEl = document.getElementById("from");
 
 publishButtonEl.addEventListener("click", function () {
-  let inputValue = `${toEl} 
-  inputFieldEl.value 
-  ${fromEl}`;
+  let inputValue = inputFieldEl.value;
 
   push(endorsementListInDB, inputValue);
 
