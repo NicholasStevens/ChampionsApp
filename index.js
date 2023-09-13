@@ -62,11 +62,12 @@ function appendItemToEndorsementListEl(comment) {
 
   newEl.textContent = commentValue;
 
-  newEl.addEventListener("dblclick", function () {
-    let exactLocationOfItemInDB = ref(database, `endorsementList/${commentID}`);
-
-    remove(exactLocationOfItemInDB);
-  });
+  //REMOVED DELETE FUNCTION FOR SECURITY PURPOSES CAN ADD BACK IF NEEDED
+  //newEl.addEventListener("dblclick", function () {
+  //  let exactLocationOfItemInDB = ref(database, `endorsementList/${commentID}`);
+  //
+  //  remove(exactLocationOfItemInDB);
+  //   });
 
   endorsementListEl.append(newEl);
 }
