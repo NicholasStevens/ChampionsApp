@@ -19,9 +19,13 @@ const endorsementListInDB = ref(database, "endorsementList");
 const inputFieldEl = document.getElementById("input-main");
 const publishButtonEl = document.getElementById("publish-btn");
 const endorsementListEl = document.getElementById("endorsements-list");
+const toEl = document.getElementById("to");
+const fromEl = document.getElementById("from");
 
 publishButtonEl.addEventListener("click", function () {
-  let inputValue = inputFieldEl.value;
+  let inputValue = `${toEl} 
+  inputFieldEl.value 
+  ${fromEl}`;
 
   push(endorsementListInDB, inputValue);
 

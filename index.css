@@ -53,6 +53,19 @@ textarea {
   margin: 10px 0;
 }
 
+input {
+  background-color: #444059;
+  color: #ffffff;
+  font-family: "inter", sans-serif;
+  font-weight: normal;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  text-align: left;
+  margin: 10px 0;
+}
+
 h3 {
   color: #ffffff;
   text-align: center;
